@@ -37,7 +37,7 @@ var mesh;
 
 // Load GLTF model, add material, and add it to the scene
 const loader = new GLTFLoader().load(
-  "https://cdn.glitch.me/1a353099-9231-4c60-8297-c3a420cf4427%2Fnut.glb?v=1636529517507",
+  "nut.glb",
   function(gltf) {
     // Scan loaded model for mesh and apply defined material if mesh is present
     gltf.scene.traverse(function(child) {
